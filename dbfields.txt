@@ -1,0 +1,22 @@
+collection("users")
+{
+    _id: string 
+    firstname: string 
+    lastname: string 
+    username: string 
+    password: shaString 
+    email: string 
+    salt: string 
+    addresses: [id_addr]
+}
+
+collection("user_addresses")
+{
+    _id: string 
+    country: string 
+    city: string 
+    street: string 
+    number: string 
+    postcode: string 
+    extraInfo: string 
+}
